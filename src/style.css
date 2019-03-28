@@ -1,0 +1,27 @@
+table,th,td{
+    border-collapse: collapse;
+    border:1px solid black;
+    padding: 10px;
+}
+table{
+    width: 60%;
+}
+th{
+    background-color: lightgray;
+}
+td{
+    text-align: center;
+}
+#top{
+    color: blue;
+    font-size: 20px;
+}
+.name{
+    font-size: 25px;
+    color: black;
+}
+
+ol{
+    color:purple;
+
+}
