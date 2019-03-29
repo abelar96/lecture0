@@ -3,8 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+
+       ol > li {
+       color: blue;
+       }
+
+        input[type=text]{
+            background-color: aqua;
+        }
+        input[type=number]{
+            background-color: blueviolet;
+        }
+        button{
+            width: 200px;
+            height: 50px;
+            font-size: 24px;
+        }
+        button:hover{
+            background-color: orange;
+        }
+        a:before{
+            content: "Click here ";
+            font-weight: bold;
+        }
+
+    </style>
 </head>
 <body>
-Testing new branch
+    <ol>
+        <li>List 1</li>
+        <li>List 2</li>
+        <ul>
+            <li>Sublist 1</li>
+            <li>Sublist 2</li>
+        </ul>
+        <li>list 3</li>
+
+    </ol>
+
+    <form>
+        <input name="name" type="text" placeholder="Name">
+        <input name="password" type="number" placeholder="Age">
+
+    </form> <br><br>
+
+    <a href="hello.html"><button>Click me!</button></a>
+    <ul>
+        <li><a href="#">One Link</a> </li>
+    </ul>
+
+
 </body>
 </html>
